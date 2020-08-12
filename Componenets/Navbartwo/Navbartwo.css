@@ -1,0 +1,205 @@
+.mainlogo
+{
+margin-left:70px;
+color:#28a745;
+float:left;
+}
+.mainlogo i
+{
+
+font-size:25px;
+padding:16px;
+}
+.navbarsecond-logo
+{
+text-decoration:none;
+}
+.edu
+{
+font-size:20px;
+color:#2554C7;
+}
+.center
+{
+font-size:20px;
+color:green;
+}
+.menus
+{
+height:60px;
+float:left;
+position:absolute;
+margin-left:220px;
+}
+.navbarsecond
+{
+width:100%;
+position:fixed;
+z-index:1;
+background-color:#fff;
+height:60px;
+color:white;
+font-size:0.7rem;
+justify-content:center;
+align-items:center;
+
+}
+.nav-item
+{
+height:60px;
+list-style-type:none;
+padding:14px;
+float:left;
+margin-right:4px;
+font-family: 'Noto Sans TC';
+font-weight:bold;
+display: flex;
+align-items: center;
+
+
+}
+.nav-menu
+{
+height:56px;
+margin-left:32px;
+display: grid;
+position:relative;
+grid-template-columns: repeat(6, auto);
+list-style: none;
+text-align: center;
+width: 50vw;
+justify-content: end;
+ margin-right: 0.5rem;
+}
+
+.nav-linkstwo
+{
+text-decoration:none;
+color:#333333;
+font-family:sans-serif;
+font-size:0.8rem;
+}
+.qt-btn
+{
+float:left;
+position:absolute;
+width:150px;
+padding: 10px 10px;
+margin-left:80%;
+
+}
+.nav-linkstwo:hover
+{
+color:green;
+transition: all 0.2s ease-out;
+
+}
+
+.nav-item:hover
+{
+
+border-bottom:2.5px solid green;
+transition: all 0.2s ease-out;
+z-index: 1;
+
+}
+.nav-menu.active {
+    color: green;
+    left: 0;
+    opacity: 1;
+    transition: all 0.5s ease;
+    z-index: 1;
+  }
+  .active{
+  color:green;
+  transition: all 0.2s ease-out;
+  z-index: 1;
+
+  }
+  .activee
+  {
+  border-bottom:2.5px solid green;
+  }
+
+
+  .menu-icon
+  {
+  position:absolute;
+  color:black;
+  }
+
+  @media screen and (max-width: 960px)
+  {
+  .navbarsecond
+  {
+  position:relative;
+  }
+
+  .nav-menu
+  {
+
+  display:flex;
+  flex-direction:column;
+  width:100%;
+  height:500px;
+  top:60px;
+  left:-100%;
+  opacity:1;
+  background:white;
+  transition: all 0.5s ease;
+
+
+  }
+  .nav-menu.active
+  {
+  background:white;
+  left:0;
+  opacity:1;
+  transition: all 0.5s ease;
+  z-index:1;
+
+  }
+  .nav-linkstwo
+  {
+  padding:2em;
+  width:100%;
+  display:table;
+  }
+  .nav-linkstwo:hover
+  {
+  background:grey;
+  }
+  .main-logo
+  {
+  position:absolute;
+  top:0;
+  left:0;
+  transition:translate(25%,50%);
+  }
+  .navbarsecond-logo
+  {
+  left:0px;
+  top:0px;
+  }
+  .qt-btn
+  {
+  display:none;
+  }
+  .menu-icon
+  {
+  display:block;
+  position:absolute;
+  top:0;
+  right:0;
+  transform:translate(-100%,60%);
+  font-size:1.8rem;
+  cursor:pointer;
+  }
+  .fa-times
+  {
+  color:black;
+  font-size:1em;
+  }
+
+  }
+
